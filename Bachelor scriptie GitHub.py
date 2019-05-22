@@ -18,6 +18,7 @@ class Job:
     
 numberOfStations = int(input('What is the number of stations?'))
 
+hoi = 1
 #define these lists to obtain the output
 StartTimes =[[] for i in range(1,numberOfStations+1)] 
 DepartureTimes =[[] for i in range(1,numberOfStations+1)]
